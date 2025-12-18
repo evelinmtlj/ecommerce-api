@@ -30,4 +30,44 @@ Features:
 - Update an existing category (ADMIN only)
 
 - Delete a category (ADMIN only)
+
+
+  <img width="895" height="917" alt="image" src="https://github.com/user-attachments/assets/823dfafe-f801-4b59-880d-5fb9519ebd67" />
+
+
+### Bug 1: Incorrect Search Results
+Fix:
+
+Tested search queries using different combinations of parameters
+
+Corrected SQL logic in the DAO to properly handle optional filters
+
+Verified results using Insomnia and unit tests
+<img width="782" height="506" alt="image" src="https://github.com/user-attachments/assets/f5de491d-0b74-4b37-a097-ff7073ca4627" />
+
+### Bug 2: Duplicate Products on Update
+
+Issue: Updating a product created a new record instead of updating the existing one.
+
+Fix:
+
+Identified incorrect SQL logic using INSERT instead of UPDATE
+
+Corrected DAO method to update products by ID
+
+Ensured administrators can safely update products without duplication
+
+<img width="1011" height="802" alt="image" src="https://github.com/user-attachments/assets/2b9776c6-6f00-4a92-9fcc-339cd8d14bc8" />
+
+ ### Testing
+
+API endpoints tested using Insomnia
+
+Search and filter logic validated with multiple scenarios
+
+### Conclusions 
+- This project demonstrates backend API development, debugging, security enforcement, and testing using Java and Spring Boot.
+
+
+
   

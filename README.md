@@ -4,7 +4,7 @@
 
 Easy Shop is a Spring Boot REST API for an e-commerce application. The backend supports product browsing, category management, product search and filtering, and role-based access for administrators. This project focused on backend development and bug fixing while working with an existing UI.
 
--- ### Feautes
+-- ### Features
 
  - User registration and login
 
@@ -58,6 +58,11 @@ Corrected DAO method to update products by ID
 Ensured administrators can safely update products without duplication
 
 <img width="1011" height="802" alt="image" src="https://github.com/user-attachments/assets/2b9776c6-6f00-4a92-9fcc-339cd8d14bc8" />
+
+### Small bug in frontend 
+<img width="936" height="548" alt="image" src="https://github.com/user-attachments/assets/002cb5c4-9cbd-4436-ad71-f732864a7281" />
+- Fixed a front-end bug in the price filter where the minimum price label appeared twice, improving UI clarity and usability.
+
 
  ### Testing
 
